@@ -22,7 +22,7 @@ public class BinarySearch {
             else {
             return mid;
             }
-
+// checking git
         }
         return -1;
     }
