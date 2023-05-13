@@ -1,0 +1,4 @@
+mid=s+(e-s)/2
+case change= char-'a'+'A'
+case change= char-'A'+'a'
+
