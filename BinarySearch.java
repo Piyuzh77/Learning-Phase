@@ -7,6 +7,11 @@ public class BinarySearch {
         int a[]={-11,3,5,14,22,37,54,77,99,110},target=99 ;
         System.out.println(binarysearch(a,target));
         System.out.println(BinarySearchRec(a,target,0,a.length-1)); 
+
+        loduraamkiclass chutiya= new loduraamkiclass();
+        // chutiya.goat();
+        // chutiya.ia();
+        System.out.println(chutiya.l);
     }
     static int binarysearch(int a[], int target)
     {
@@ -40,5 +45,28 @@ public class BinarySearch {
         else
         return BinarySearchRec(a, target, m+1, e);
     }
+    
+}
 
+class loduraamkiclass{
+
+    // static int x=0;
+
+    int l; String n;
+
+    loduraamkiclass(int lund, String name)
+    {
+        this.l=lund;
+        this.n=name;
+    }
+    loduraamkiclass()
+    {}
+    // public void goat()
+    // {++x;
+    // System.out.println(x);}
+    // public void ia()
+    // {
+    //     x=99;
+    //     System.out.println(x);
+    // }
 }
