@@ -2,7 +2,7 @@ package recursion;
 
 public class MinNdMax {
     public static void main(String[] args) throws Exception {
-        int[] arr = { -999999, -99999, -9999, -999, -99, -9 };
+        int[] arr = { -999999, -99999, -9999, -999, -99};
         int n = arr.length;
 
         // Find minimum and maximum values
